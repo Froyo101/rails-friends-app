@@ -60,6 +60,7 @@ class FriendsController < ApplicationController
     end
   end
 
+  # Identifies whether or not current user is the owner of a friend listing with full privileges
   def correct_user
     @friend = current_user.friends.find_by(id: params[:id])
     redirect_to friends_path, notice: "Not Authorized To Edit This Friend" if @friend.nil?
