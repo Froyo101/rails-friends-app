@@ -1,24 +1,5 @@
-# README
+# Rails Friends App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An app that allows users to create and edit a friends list, developed with Rails and Bootstrap.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project was created to follow along with a tutorial provided by John Elder for FreeCodeCamp (https://www.youtube.com/watch?v=fmyvWz5TUWg), all credit goes to him for the app's implementation and general design.
